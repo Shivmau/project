@@ -1,0 +1,525 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* India part of Css */
+
+#india{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+    background-color: #F8F8F8;
+    /* border: 2px solid black; */
+    padding-right: 100px;
+}
+
+#india>div{
+    margin: 10px;
+}
+#india>div>img{
+    width: 20px;
+    height: 20px;
+}
+
+.line{
+    border: 2px solid #DDDDDD;
+    height: 28px;
+    width: 0;
+}
+
+
+
+
+
+/* Header part of Css */
+
+
+header{
+    
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color: #2D2D2D;
+    color: white;
+}
+header>div{
+    cursor: pointer;
+    padding: 20px;
+}
+#logo>img{
+    /* color: white; */
+    background-color: white;
+}
+#search>input{
+    width: 700px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+
+#logo{
+  font-weight:bold;
+  font-size: 50px;
+  padding-left: 100px;
+ 
+}
+/* .line2{
+    border: 2px solid #DDDDDD;
+    height: 58px;
+   
+} */
+header>#women:hover{
+    /* width: auto; */
+    text-align: center;
+    /* height:60px ; */
+    background-color: #525050;
+}
+
+#men{
+    background-color: #525050;
+}
+
+
+
+
+/* Mens's part */
+
+#mens_part{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    background-color: #525050;
+    padding-left: 130px;
+
+}
+
+#mens_part>a{
+    text-decoration: none;
+    color: white;
+    width:60px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mens_part>a:hover{
+    background-color:#EEEEEE;
+    color: black;
+}
+
+
+
+/* Sale offer part in css */
+
+
+#sale{
+    /* width: 90%; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    background-color: #9CF0E0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#sale>div{
+    font-weight: bold;
+}
+
+#sal{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.men1{
+    border:2px solid black;
+    padding:4px;
+}
+
+
+
+
+/* poster in css */
+
+#poster{
+    font-family: futura-pt, FuturaStd, Helvetica, Arial, sans-serif;
+    height: 420px;
+    border: 0.1px solid white;
+    background-image: linear-gradient(90deg,#9451FD,#a6eee1);
+}
+
+#poster-sal{
+    width: 9%;
+    margin: auto;
+    /* border: 3px solid black; */
+    text-align: center;
+    margin-top: 35px;
+    padding: 8px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+}
+
+
+#poster-off{
+    width: 50%;
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#last{
+    /* font-family: futura-pt, FuturaStd, Helvetica, Arial, sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+   font-weight: bold;
+   margin-top: 20px;
+}
+
+#code>span{
+    border: 2px solid black;
+    padding:5px;
+}
+
+#para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+
+/* posterimgae in css */
+
+
+#img-poster>img{
+    max-width: 100%;
+}
+
+/* men's cloth  */
+
+
+#men-cloth{
+     width: 80%;
+     margin: auto;
+     display: grid;
+     gap:15px;
+     grid-template-columns: repeat(4,1fr);
+     margin-top: 30px;
+}
+#men-cloth>div>img{
+    max-width: 100%;
+}
+
+#men-cloth>div{
+    text-align: center;
+}
+
+
+/* poster 2 */
+
+
+#poster2{
+    font-family: futura-pt, FuturaStd, Helvetica, Arial, sans-serif;
+    height: 720px;
+    border: 0.1px solid white;
+    background-image: linear-gradient(#9451FD,#a6eee1);
+}
+
+#poster-sal{
+    width: 9%;
+    margin: auto;
+    /* border: 3px solid black; */
+    text-align: center;
+    margin-top: 35px;
+    padding: 8px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+}
+
+
+#poster-off{
+    width: 50%;
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#last{
+    /* font-family: futura-pt, FuturaStd, Helvetica, Arial, sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+   font-weight: bold;
+   margin-top: 20px;
+}
+
+#code>span{
+    border: 2px solid black;
+    padding:5px;
+}
+
+#para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+
+#items{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(6,1fr);
+}
+
+
+#items>div>img{
+    max-width: 100%;
+}
+
+#items>div{
+    text-align: center;
+    background-color: white;
+}
+
+#view{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    /* border:2px solid black; */
+}
+
+#view>div{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* border:2px solid red; */
+    background-color: white;
+    padding:10px;
+    font-weight:bold;
+    
+}
+
+#view>div:hover{
+    background-color: #020104;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* two -view point in css */
+
+#two-view{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#two-view>div>img{
+    max-width: 100%;
+}
+
+#two-view>div{
+    text-align: center;
+}
+
+.shop{
+    width: 35%;
+    padding:10px;
+    margin: auto;
+    border:2px solid black;
+}
+
+
+
+
+
+/* Asos app in css */
+
+#app{
+    margin-top: 30px;
+    padding-top: 30px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: linear-gradient(90deg,#FF3E62,#F88BAD);
+}
+
+#app{
+    text-align: center;
+}
+
+#app1{
+    margin-top: 30px;
+    height: 40px;
+    width: 20%;
+    margin: auto;
+    border:2px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.para1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.download{
+    margin-top: 40px;
+    padding-top: 2px;
+    height: 35px;
+    width: 20%;
+    margin: auto;
+    border:2px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(5, 3, 3);
+}
+
+#trend_brand{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+/* brands logo in css */
+
+
+#brands-logo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 80%;
+    margin: auto;
+}
+
+#brands-logo>div>img{
+    max-width: 100%;
+}
+
+
+/* socail media in css */
+
+#social-media{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 30px;
+    /* border: 3px solid black; */
+}
+
+#social-media>div{
+    font-size: 30px;
+}
+
+#footer{
+    background-color: #EEEEEE;
+
+}
+#foot{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#foot>div>div>a{
+    text-decoration: none;
+}
+
+#foot>div>div>img{
+    width: 20px;
+    height: 20px;
+}
+
+#foot>div>div{
+    height: 28px;
+}
+
+
+#footer1{
+    width: 100%;
+    height: 50px;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DDDDDD;
+}
+
+
+header>#account>a>i{
+    color: white;
+}

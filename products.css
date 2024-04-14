@@ -1,0 +1,15 @@
+#container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#container>div>img{
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+}
